@@ -14,6 +14,7 @@ We have now tested the example in a big bang approach.
 The disadvantages to this approach would be the difficulty in localizing faults or bugs. Putting everything together at once would also mean you could easily miss interfaces to be tested. 
 With this approach, it would also mean the testing could only begin after all the modules are designed and the testing team would have less time to test the solution. 
 It makes sense to use the big bang approach in this case but in any larger system it would be preferred to use the bottom up or top down integration strategy. 
+
 You could also argue that this example is the start of a bottom up approach. The modules that talk to the database was tested first and if we were to add a frontend we would then test this part later after the bottom part of the application were created and tested first.
 
 The integration method we use are automated tests. All tests are automated in the code and can all be run together whenever we want to. 

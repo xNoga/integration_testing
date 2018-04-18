@@ -18,9 +18,10 @@ It makes sense to use the big bang approach in this case but in any larger syste
 The integration method we use are automated tests. All tests are automated in the code and can all be run together whenever we want to. 
 That means we are using white-box-testing in this example. 
 We could also choose to suppliment with black-box-testing and focus on whether the application accomplished the tasks it was created to solve.
-If we had a GUI, a webpage for example, we could test whether the modules provided the information we were expecting to see in the application. 
+If we had a GUI, a webpage for example, we could test whether the modules provided the information we were expecting to see in the application frontend.
 That would mean we were using acceptance testing. 
 
+## Test cases
 
 
 ## Test results

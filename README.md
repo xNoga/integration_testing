@@ -25,10 +25,10 @@ That would mean we were using acceptance testing.
 
 ## Test cases
 
-Test Case ID | Test case description | Prerequisites | Test steps | Test data | Expected Result | Actual Result | Status | 
----|---|---|---|---|---|---|---|
-TC001 | The objective of this test is to verify that a triangle with **three** sides of equal length will return 'equilateral triangle' | The user should obtain three equal integers | Enter the three integers to the program and run it | The input should all be integers. Any other datatypes are not valid | 1. The program should return 'equilateral triangle' if all three integers are equal to oneanother <br><br> 2. The program should return 'invalid input' if the input was not all integers | 1. The input was valid and the program returned 'equilateral triangle' <br><br> 2. If the input was invalid the program will return 'invalid input' | Success |
-
+| Test Case ID | Test case description | Expected results | Actual results | Status |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------|--------------------------------------|---------|
+| TC001 | The objective of this test is to verify that the method collects the correct data from the database. The method TestGetTracks() should get all tracks from the database where the genreid is either 18 or 20. | The length of the result set should be 39 | The length of the result set was 39 | Success |
+| TC002 | The objective of this test is to verify that the method collects  the correct data from the database. The method TestGetInvoices() should get all invoices from  the database where the total is between 5 and 10 dollars. | The length of the result set should be 115 | The length of the result set was 115 | Success |
 
 ## Test results
 ![](https://github.com/xNoga/integration_testing/blob/master/images/Screen%20Shot%202018-04-16%20at%2014.16.15.png)

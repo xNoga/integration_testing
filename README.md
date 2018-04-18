@@ -31,3 +31,4 @@ TC001 | The objective of this test is to verify that a triangle with **three** s
 
 
 ## Test results
+![](https://github.com/xNoga/integration_testing/blob/master/images/Screen%20Shot%202018-04-16%20at%2014.16.15.png)

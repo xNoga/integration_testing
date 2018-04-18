@@ -14,6 +14,7 @@ We have now tested the example in a big bang approach.
 The disadvantages to this approach would be the difficulty in localizing faults or bugs. Putting everything together at once would also mean you could easily miss interfaces to be tested. 
 With this approach, it would also mean the testing could only begin after all the modules are designed and the testing team would have less time to test the solution. 
 It makes sense to use the big bang approach in this case but in any larger system it would be preferred to use the bottom up or top down integration strategy. 
+You could also argue that this example is the start of a bottom up approach. The modules that talk to the database was tested first and if we were to add a frontend we would then test this part later after the bottom part of the application were created and tested first.
 
 The integration method we use are automated tests. All tests are automated in the code and can all be run together whenever we want to. 
 That means we are using white-box-testing in this example. 
@@ -22,6 +23,10 @@ If we had a GUI, a webpage for example, we could test whether the modules provid
 That would mean we were using acceptance testing. 
 
 ## Test cases
+
+Test Case ID | Test case description | Prerequisites | Test steps | Test data | Expected Result | Actual Result | Status | 
+---|---|---|---|---|---|---|---|
+TC001 | The objective of this test is to verify that a triangle with **three** sides of equal length will return 'equilateral triangle' | The user should obtain three equal integers | Enter the three integers to the program and run it | The input should all be integers. Any other datatypes are not valid | 1. The program should return 'equilateral triangle' if all three integers are equal to oneanother <br><br> 2. The program should return 'invalid input' if the input was not all integers | 1. The input was valid and the program returned 'equilateral triangle' <br><br> 2. If the input was invalid the program will return 'invalid input' | Success |
 
 
 ## Test results

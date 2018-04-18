@@ -30,5 +30,7 @@ That would mean we were using acceptance testing.
 | TC001 | The objective of this test is to verify that the method collects the correct data from the database. The method TestGetTracks() should get all tracks from the database where the genreid is either 18 or 20. | The length of the result set should be 39 | The length of the result set was 39 | Success |
 | TC002 | The objective of this test is to verify that the method collects  the correct data from the database. The method TestGetInvoices() should get all invoices from  the database where the total is between 5 and 10 dollars. | The length of the result set should be 115 | The length of the result set was 115 | Success |
 
+It is important to note that the test cases should be updated every time the database changes oterwise they might not hold anymore. 
+
 ## Test results
 ![](https://github.com/xNoga/integration_testing/blob/master/images/Screen%20Shot%202018-04-16%20at%2014.16.15.png)
